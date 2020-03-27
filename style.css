@@ -1,5 +1,6 @@
 body {
     background-color: white;
+     
     
 }
 h1 {
@@ -10,7 +11,7 @@ h1 {
 .page-link {
     text-decoration: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     
 
@@ -31,9 +32,23 @@ a {
     text-decoration: none;
     list-style-type: none;
 }
+
+.page-container {
+    position: relative;
+  }
+  
+.content-wrap {
+    padding-bottom: 100;
+
+}
 footer ul li {
     list-style-type: none;
 }
+footer {
+    position: absolute;
+    bottom: 100;
+    width: 90%; 
+} 
 
 
 .fa {
