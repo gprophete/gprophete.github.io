@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #d3be9f;
     font-family: 'Indie Flower', cursive ;
     
 }
@@ -7,6 +7,8 @@ h1 {
     font-family: 'Indie Flower', cursive;
     font-size: 60px;
     font-weight: 500;
+    padding: 10px;
+    margin: 10px 0 10px 0;
 }
 .page-link {
     text-decoration: none;
@@ -16,8 +18,12 @@ h1 {
     
 
 }
+
+img {
+    border-radius: 100%;
+    padding: 10px;
+}
 h2 {
-    background-color: gray;
     text-align: center;
 }
 
@@ -45,12 +51,12 @@ footer {
 
 
 .fa {
-    padding: 30px;
-    font-size: 30px;
-    width: 0px;
-    text-align: left;
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 10px 10px;
     border-radius: 100%;
     
 }
@@ -74,4 +80,9 @@ footer {
   .fa-linkedin {
     background: #007bb5;
     color: white;
+}
+small {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
